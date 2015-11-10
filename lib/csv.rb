@@ -105,6 +105,7 @@ require "stringio"
 # === From a File
 #
 # ==== A Line at a Time
+# The ::foreach method passes a CSV::Row to the block.
 #
 #   CSV.foreach("path/to/file.csv") do |row|
 #     # use row here...
